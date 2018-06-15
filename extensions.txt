@@ -15,3 +15,4 @@ code --install-extension sebastianbaar.vscode - add - angular2 - files
 code --install-extension thekalinga.bootstrap4 - vscode
 code --install-extension wcwhitehead.bootstrap - 3 - snippets
 code --install-extension Zignd.html - css - class- completion
+
