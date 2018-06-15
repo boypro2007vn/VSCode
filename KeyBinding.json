@@ -1,0 +1,111 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+  {
+    "key": "ctrl+k",
+    "command": "editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+k",
+    "command": "-editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+alt+right",
+    "command": "editor.action.smartSelect.grow",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+right",
+    "command": "-editor.action.smartSelect.grow",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+right",
+    "command": "workbench.action.moveEditorToNextGroup"
+  },
+  {
+    "key": "ctrl+alt+right",
+    "command": "-workbench.action.moveEditorToNextGroup"
+  },
+  {
+    "key": "ctrl+alt+down",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+alt+down",
+    "command": "-editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+alt+up",
+    "command": "editor.action.copyLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+alt+up",
+    "command": "-editor.action.copyLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+left",
+    "command": "cursorHomeSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+home",
+    "command": "-cursorHomeSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+right",
+    "command": "cursorEndSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+end",
+    "command": "-cursorEndSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+down",
+    "command": "cursorDownSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+down",
+    "command": "-cursorDownSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+f11",
+    "command": "editor.action.peekImplementation",
+    "when": "editorHasImplementationProvider && editorTextFocus && !isInEmbeddedEditor"
+  },
+  {
+    "key": "ctrl+shift+f12",
+    "command": "-editor.action.peekImplementation",
+    "when": "editorHasImplementationProvider && editorTextFocus && !isInEmbeddedEditor"
+  },
+  {
+    "key": "f11",
+    "command": "editor.action.goToImplementation",
+    "when": "editorHasImplementationProvider && editorTextFocus && !isInEmbeddedEditor"
+  },
+  {
+    "key": "ctrl+f12",
+    "command": "-editor.action.goToImplementation",
+    "when": "editorHasImplementationProvider && editorTextFocus && !isInEmbeddedEditor"
+  },
+  {
+    "key": "alt+f12",
+    "command": "editor.action.previewDeclaration",
+    "when": "editorHasDefinitionProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+  },
+  {
+    "key": "alt+f12",
+    "command": "-editor.action.previewDeclaration",
+    "when": "editorHasDefinitionProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+  }
+]
