@@ -1,0 +1,17 @@
+code --install-extension abierbaum.vscode - file - peek
+code --install-extension CoenraadS.bracket - pair - colorizer
+code --install-extension dbaeumer.vscode - eslint
+code --install-extension donjayamanne.jquerysnippets
+code --install-extension eg2.tslint
+code --install-extension hoovercj.vscode - power - mode
+code --install-extension infinity1207.angular2 - switcher
+code --install-extension Mikael.Angular - BeastCode
+code --install-extension msjsdiag.debugger -for-chrome
+code --install-extension PKief.material - icon - theme
+code --install-extension pkosta2006.rxjs - snippets
+code --install-extension rbbit.typescript - hero
+code --install-extension ritwickdey.LiveServer
+code --install-extension sebastianbaar.vscode - add - angular2 - files
+code --install-extension thekalinga.bootstrap4 - vscode
+code --install-extension wcwhitehead.bootstrap - 3 - snippets
+code --install-extension Zignd.html - css - class- completion
