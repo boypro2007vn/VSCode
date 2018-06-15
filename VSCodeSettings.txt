@@ -1,0 +1,33 @@
+{
+  "files.autoSave": "off",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "powermode.enabled": true,
+  "powermode.presets": "particles",
+  "powermode.shakeIntensity": 0,
+  "editor.tabCompletion": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "explorer.confirmDelete": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.detectIndentation": false,
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "all",
+  "http.proxyStrictSSL": false,
+  "editor.wordWrapColumn": 140,
+  "typescriptHero.imports.multiLineWrapThreshold": 140,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  // "eslint.enable": true,
+  // "eslint.options": {
+  //   "configFile": ".eslintrc"
+  // },
+  // "eslint.validate": [
+  //   "javascript",
+  //   "javascriptreact",
+  //   {
+  //     "language": "html",
+  //     "autoFix": true
+  //   }
+  // ],
+  "typescriptHero.imports.organizeOnSave": true,
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe"
+}
